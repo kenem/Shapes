@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         let rotateAnimation = CABasicAnimation(keyPath: "transform.rotation")
         rotateAnimation.fromValue = 0
         rotateAnimation.toValue = .pi * 2.0
-        rotateAnimation.duration = 10
+        rotateAnimation.duration = 1
         rotateAnimation.repeatCount = .greatestFiniteMagnitude
         container?.layer.add(rotateAnimation, forKey: nil)
     }
